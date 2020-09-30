@@ -9,6 +9,7 @@ In this project, we will be building a database in Postgres for the startup Spar
 Sparkifys has a new music streaming app that they wish to analyze their user activity via the data they have been collecting on their user's activities. 
 However, Sparkify analytics team doesn't have an easy way to query their data because they all reside in a directory of JSON logs. 
 Our goal is to create a database and insert Sparkify data logs into it so they can achieve their analytical objectives.
+
 ------------------------
 
 # Database Schema Design
@@ -74,5 +75,8 @@ The benefits of star schemas are that they're optimized for reads speed, optimiz
 
 # How to Run
 The Postgres server should be up before running the project.
-```python create_tables.py```
-```python etl.py```
+
+```
+python create_tables.py
+python etl.py
+```
