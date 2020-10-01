@@ -32,6 +32,8 @@ The benefits of star schemas are that they're optimized for reads speed, optimiz
 
 ## Table schema 
 
+![Database Diagram](/Database_Diagram.png "Database Diagram")
+
 ### Songplays table
  - songplay_id serial PRIMARY KEY
  - start_time timestamp
