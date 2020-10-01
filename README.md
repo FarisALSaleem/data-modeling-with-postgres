@@ -12,6 +12,19 @@ Our goal is to create a database and insert Sparkify data logs into it so they c
 
 ------------------------
 
+# Repository Structure
+
+ - data: Contains all songs entries and user activity logs in a JSON format
+ - etl.ipynb: Is a notebook used to prototype an ETL Pipeline later used in etl.py
+ - test.ipynb: Test notebook that connects to the backend to confirm table structure and record validity
+ - create_tables.py: Python code that connects to the backend and create all the need tables for this project
+ - etl.py: Python code that connects to the backend, extracts the data from the "data" folder and pushes it to the database
+ - sql_queries.py: Python code that contains all the SQL statements used within this project
+ - README.md: this file
+
+
+------------------------
+
 # Database Schema Design
 
 The database is designed in a star schema.
